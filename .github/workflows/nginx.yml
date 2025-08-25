@@ -51,7 +51,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        image: ["ubuntu:24.04", "centos:7","oracle:8"]
+        image: ["centos:centos7", "oraclelinux:8"]
         nginx: ["1.24.0", "1.22.1"]
     steps:
       - name: checkout otel nginx
